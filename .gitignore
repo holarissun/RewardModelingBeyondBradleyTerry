@@ -1,0 +1,4 @@
+# gitignore for python
+*.pyc
+__pycache__/
+.trunk/
