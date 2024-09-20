@@ -5,11 +5,11 @@ import torch.optim as optim
 from sklearn.model_selection import train_test_split
 
 class MLP(nn.Module):
-    def __init__(self, input_dim):
+    def __init__(self, input_dim, hidden_dim1=1024, hidden_dim2=512):
         super(MLP, self).__init__()
-        self.fc1 = nn.Linear(input_dim, 1024)  # First hidden layer
-        self.fc2 = nn.Linear(1024, 512)         # Second hidden layer
-        self.fc3 = nn.Linear(512, 1)           # Output layer (binary classification)
+        self.fc1 = nn.Linear(input_dim, hidden_dim1)  # First hidden layer
+        self.fc2 = nn.Linear(hidden_dim1, hidden_dim2)         # Second hidden layer
+        self.fc3 = nn.Linear(hidden_dim2, 1)           # Output layer (binary classification)
 
     def forward(self, x):
         x = torch.relu(self.fc1(x))
