@@ -5,3 +5,5 @@ __pycache__/
 stale*
 figs*
 *out*
+macro_out*
+*.log
