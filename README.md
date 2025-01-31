@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Official Implementation for ICLR'2025 Paper
 
 ## [ICLR'2025] Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives
@@ -17,6 +16,12 @@ Details of the workflow are posited in this paper [TO BE RELEASED SOON.]. Our mo
 - Step 2 (optional, GPU required): Generate samples on training (10 per prompt) and testing prompts (500 per prompt) 
 - Step 3 (optional, GPU required): annotating response qualities using golden reward models
 - Step 4 (optional, GPU required): Generate and store embeddings of all prompt-response pairs
+
+### The above 4 steps enable us to create an embedding-based dataset, then we can easily reproduce any research with such a dataset
+
+To illustrate:
+![example code](demo.png)
+
 - Step 5 
 
 
@@ -29,13 +34,3 @@ Details of the workflow are posited in this paper [TO BE RELEASED SOON.]. Our mo
 
 
 
-=======
-# Repo for Paper
-#### Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives
-#### Hao Sun*, Yunyi Shen*, Jean-Francois Ton
-
-[ [Website] ](https://sites.google.com/view/rewardmodels)        |      [ [Preprint] ](https://arxiv.org/pdf/2411.04991)       |       [Embeddings (To be released soon)]     |     [Code (To be released soon)]
-
-
-#### 
->>>>>>> 0ee0a90c81b9aab24ff4b8489ee1f214825051ca

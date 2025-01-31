@@ -7,3 +7,4 @@ figs*
 *out*
 macro_out*
 *.log
+.DS_Store
