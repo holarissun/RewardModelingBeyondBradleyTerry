@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Official Implementation for ICLR'2025 Paper
 
 ## [ICLR'2025] Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives
@@ -28,3 +29,13 @@ Details of the workflow are posited in this paper [TO BE RELEASED SOON.]. Our mo
 
 
 
+=======
+# Repo for Paper
+#### Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives
+#### Hao Sun*, Yunyi Shen*, Jean-Francois Ton
+
+[ [Website] ](https://sites.google.com/view/rewardmodels)        |      [ [Preprint] ](https://arxiv.org/pdf/2411.04991)       |       [Embeddings (To be released soon)]     |     [Code (To be released soon)]
+
+
+#### 
+>>>>>>> 0ee0a90c81b9aab24ff4b8489ee1f214825051ca
