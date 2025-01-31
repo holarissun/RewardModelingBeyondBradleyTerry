@@ -1,15 +1,21 @@
-# Official Implementation for ICLR'2025 Paper
+# Official Implementation for [ICLR'2025 Paper](https://openreview.net/forum?id=rfdblE10qm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions))
 
-## [ICLR'2025] Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives
+## Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives
 
 #### Authors: Hao Sun*, Yunyi Shen*, Jean-Francois Ton. The first two authors contribute equally.
 
 [ [Website] ](https://sites.google.com/view/rewardmodels)        |      [ [Preprint] ](https://arxiv.org/pdf/2411.04991)       |       [Embeddings (To be released soon)]     |     [Code (To be released soon)]
 
-## Infra for Easy-Reproducible Reward Model Research
-The reproduction for reward modeling research has long been a challenge, given its high demand on hardware and cost in training, evaluation, and inference. We propose to conduct easy-reproducible reward model research on the embedding space.
+_We have a series of work focusing on reward models in RLHF:_
+- Part I. Reward Model Foundation (This Repo.)
+- Part II. Active Reward Modeling (SOON)
+- Part III. Accelerating Reward Model Research with our Infra. (SOON)
 
-Details of the workflow are posited in this paper [TO BE RELEASED SOON.]. Our motivation is to make every researcher with a single CPU can also conduct reward modeling (and RLHF) research.
+----
+## Infra for Easy-Reproducible Reward Model Research
+The reproduction for reward modeling research has long been a challenge, given its high demand for hardware and cost in training, evaluation, and inference. We propose to conduct easy-reproducible reward model research on the embedding space.
+
+Details of the workflow are posited in this paper: [Part III. TO BE RELEASED SOON.]. Our motivation is to make every researcher with a single CPU can also conduct reward modeling (and RLHF) research.
 
 ## Reproducing the Results with a CPU
 - Step 1 (optional, GPU required): SFT
