@@ -18,8 +18,12 @@ The reproduction for reward modeling research has long been a challenge, given i
 Details of the workflow are posited in this paper: [Part III. TO BE RELEASED SOON.]. Our motivation is to make every researcher with a single CPU can also conduct reward modeling (and RLHF) research.
 
 ## Reproducing the Results with a CPU
-- Step 1 (optional, GPU required): SFT
-- Step 2 (optional, GPU required): Generate samples on training (10 per prompt) and testing prompts (500 per prompt) 
+- Step 1 (optional, GPU required): SFT (you need to update the PATH to the models/open-sourced datasets. You may need to apply for licences to use those models/datasets first.) Note that
+```python
+python3 step1_sft.py --model_name gemma2b --dataset hh-rlhf-helpful-gpt4
+```
+
+- Step 2 (optional, GPU required): Generate samples on training (10 per prompt) and testing prompts (500 per prompt)
 - Step 3 (optional, GPU required): annotating response qualities using golden reward models
 - Step 4 (optional, GPU required): Generate and store embeddings of all prompt-response pairs
 
@@ -28,7 +32,7 @@ Details of the workflow are posited in this paper: [Part III. TO BE RELEASED SOO
 To illustrate:
 ![example code](demo.png)
 
-- Step 5 
+- Step 5
 
 
 
