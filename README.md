@@ -8,7 +8,7 @@
 
 _We have a series of work focusing on reward models in RLHF:_
 - Part I. Reward Model Foundation (This Repo.)
-- Part II. Active Reward Modeling (SOON)
+- Part II. Active Reward Modeling ([[preprint](https://arxiv.org/abs/2502.04354)], [[repo](https://github.com/YunyiShen/ARM-FI?tab=readme-ov-file)])
 - Part III. Accelerating Reward Model Research with our Infra. (SOON)
 
 ----
