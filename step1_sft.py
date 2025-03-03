@@ -4,7 +4,6 @@ import torch
 from transformers import AutoModelForCausalLM,AutoTokenizer,TrainingArguments
 from datasets import load_dataset, Dataset, load_from_disk
 from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
-from trl.trainer.utils import DataCollatorForCompletionOnlyLM
 from peft import LoraConfig, AutoPeftModelForCausalLM, get_peft_model, PeftModel
 
 parser = argparse.ArgumentParser()
@@ -95,7 +94,7 @@ collator = DataCollatorForCompletionOnlyLM(response_template=response_template, 
 
 trainer = SFTTrainer(
     peft_model,
-    train_dataset=dataset_to_train,
+    train_dataset=dataset,
     args=training_args,
     formatting_func=formatting_prompts_func,
     data_collator=collator,
