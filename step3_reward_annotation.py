@@ -28,7 +28,7 @@ if 'helpful' in args.dataset:
 elif 'harmless' in args.dataset:
     args.eval_rm_name = 'rayharmless'
 
-response_path = f"{args.output_dir}/Part_{args.split}_sft_{args.adapter_name}max_len{args.max_len}_temp{args.temperature}_{args.model_name}_{args.dataset}_n{args.n_samples}_dcls{args.data_class}/"
+response_path = f"{args.output_dir}/Part_{args.split}_sft_{args.adapter_name}max_len{args.max_len}_temp{args.temperature}_{args.model_name}_{args.dataset}_{args.eval_dataset}_n{args.n_samples}_dcls{args.data_class}/"
 json_file = os.path.join(response_path, 'config.json')
 response_data = []
 with open(json_file) as f:
@@ -91,6 +91,6 @@ for idx in tqdm(range(len(response_data))):
         for j in range(10):
             instance[f'rm_{args.eval_rm_name}_{batch_i*10 +j}'] = og_reward[j].item()
             instance[f'trunc_response_{batch_i*10 +j}'] = trunc_response_list[j]
-    with open(f"{args.output_dir}_rm{args.eval_rm_name}_{args.split}_maxlen{args.max_len}.json", "a+") as f:
+    with open(f"{response_path}_rm{args.eval_rm_name}_{args.split}_maxlen{args.max_len}.json", "a+") as f:
         json.dump(instance, f)
         f.write("\n")

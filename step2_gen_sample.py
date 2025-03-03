@@ -28,7 +28,7 @@ args = parser.parse_args()
 
 config = vars(args)
 torch.cuda.set_device(args.gpu_idx)
-output_dir = f"{args.output_dir}/Part_{args.split}_sft_{args.adapter_name}max_len{args.max_len}_temp{args.temperature}_{args.model_name}_{args.dataset}_n{args.n_samples}_dcls{args.data_class}/"
+output_dir = f"{args.output_dir}/Part_{args.split}_sft_{args.adapter_name}max_len{args.max_len}_temp{args.temperature}_{args.model_name}_{args.dataset}_{args.eval_dataset}_n{args.n_samples}_dcls{args.data_class}/"
 os.makedirs(output_dir, exist_ok=True)
 
 model_list = {
