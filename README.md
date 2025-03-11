@@ -72,7 +72,16 @@ python3 step6_eval_rms.py --embed_model_name gemma2b --task helpful --sft_obj gp
 
 `Call for contributors! --- Please contact me at sunhopht@gmail.com if your are interested in contributing your embedding / golden-reward annotations in your reward model research to the open-source RM community!`
 
-
-
+## 📚 BibTex Citation
+If you would like to cite our code or paper, please use
+```
+@inproceedings{
+  sun2025rethinking,
+  title={Rethinking Reward Modeling in Preference-based Large Language Model Alignment},
+  author={Hao Sun and Yunyi Shen and Jean-Francois Ton},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=rfdblE10qm}
+}
 
 
