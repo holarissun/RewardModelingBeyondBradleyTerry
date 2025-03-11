@@ -3,7 +3,7 @@
 ![Paper: Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives](img/paper_prev.png)
 
 
-### &nbsp;&nbsp;&nbsp; 🌍 [ [Website] ](https://sites.google.com/view/rewardmodels)  &nbsp;&nbsp;&nbsp;    |  &nbsp;&nbsp;&nbsp;    📖 [ [Preprint] ](https://arxiv.org/pdf/2411.04991)    &nbsp;&nbsp;&nbsp;   |   &nbsp;&nbsp;&nbsp;     📚 [ [Embeddings (To be released soon)] ]()   &nbsp;&nbsp;&nbsp; |   &nbsp;&nbsp;&nbsp;     ⚙️ [ [Infrastructure] ](https://github.com/holarissun/embedding-based-llm-alignment)   
+#### &nbsp;&nbsp;&nbsp; 🌍 [ [Website] ](https://sites.google.com/view/rewardmodels)  &nbsp;&nbsp;&nbsp;    |  &nbsp;&nbsp;&nbsp;    📖 [ [Preprint] ](https://arxiv.org/pdf/2411.04991)    &nbsp;&nbsp;&nbsp;   |   &nbsp;&nbsp;&nbsp;     📚 [ [Embeddings (To be released soon)] ]()   &nbsp;&nbsp;&nbsp; |   &nbsp;&nbsp;&nbsp;     ⚙️ [ [Infrastructure] ](https://github.com/holarissun/embedding-based-llm-alignment)   
 
 
 ---
