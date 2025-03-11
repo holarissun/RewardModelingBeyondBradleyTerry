@@ -1,21 +1,22 @@
-# Official Implementation for [ICLR'2025 Paper](https://openreview.net/forum?id=rfdblE10qm&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions))
+# 🚀 Official Implementation for [ICLR'2025 Oral Paper](https://openreview.net/forum?id=rfdblE10qm)
 
-## Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives
+![Paper: Rethinking Bradley-Terry Models in Preference-Based Reward Modeling: Foundations, Theory, and Alternatives](img/paper_prev.png)
 
-#### Authors: Hao Sun*, Yunyi Shen*, Jean-Francois Ton. The first two authors contribute equally.
+_Authors: Hao Sun*, Yunyi Shen*, Jean-Francois Ton. The first two authors contribute equally._
 
-[ [Website] ](https://sites.google.com/view/rewardmodels)        |      [ [Preprint] ](https://arxiv.org/pdf/2411.04991)       |       [Embeddings (To be released soon)]     |     [Code (To be released soon)]
+[ [Website] ](https://sites.google.com/view/rewardmodels)        |      [ [Preprint] ](https://arxiv.org/pdf/2411.04991)       |        [ [Embeddings (To be released soon)] ]()    |        [ [Infrastructure] ](https://github.com/holarissun/embedding-based-llm-alignment)   
 
-_We have a series of work focusing on reward models in RLHF:_
-- Part I. Reward Model Foundation (This Repo.)
+---
+_We have a series of work focusing on **embedding-based** reward models in RLHF:_
+- Part I. Reward Model Foundation (This paper: foundation of preference-based reward modeling and embedding-based reward models)
 - Part II. Active Reward Modeling ([[preprint](https://arxiv.org/abs/2502.04354)], [[repo](https://github.com/YunyiShen/ARM-FI?tab=readme-ov-file)])
-- Part III. Accelerating Reward Model Research with our Infra. (SOON)
-
+- Part III. Accelerating Reward Model Research with our Infra.  ([[preprint](https://arxiv.org/pdf/2502.04357)], [[repo](https://github.com/holarissun/embedding-based-llm-alignment)])
+- Part IV. Human Preference Learning through Principal Component Analysis ([[preprint](https://arxiv.org/pdf/2502.13131)])
 ----
-## Infra for Easy-Reproducible Reward Model Research
+## ⚙️ Infra for Easy-Reproducible Reward Model Research
 The reproduction for reward modeling research has long been a challenge, given its high demand for hardware and cost in training, evaluation, and inference. We propose to conduct easy-reproducible reward model research on the embedding space.
 
-Details of the workflow are posited in this paper: [Part III. TO BE RELEASED SOON.]. Our motivation is to make every researcher with a single CPU can also conduct reward modeling (and RLHF) research.
+This paper posits details of the workflow: [Part III. TO BE RELEASED SOON.]. Our motivation is to make it possible for every researcher with a single CPU to conduct reward modeling (and RLHF) research.
 
 ## Reproducing the Results with a CPU
 - Step 1 (optional, GPU required): SFT (you need to update the PATH to the models/open-sourced datasets. You may need to apply for licences to use those models/datasets first.) Note that
